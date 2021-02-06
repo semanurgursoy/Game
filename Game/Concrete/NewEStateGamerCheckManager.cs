@@ -4,9 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Game.Concrete
+namespace GameProject.Concrete
 {
-    public class GamerCheckManager : IGamerCheckService
+    public class NewEStateGamerCheckManager : IGamerCheckService
     {
         public bool IsItRealPerson(Gamer gamer)
         {

@@ -39,6 +39,7 @@ namespace Game
             gamer3.Password = "asd123";
 
             GamerManager gamerManager = new GamerManager(new MernisServiceAdapter());
+            GamerManager gamerManager2 = new GamerManager(new NewEStateGamerCheckManager());
 
             gamerManager.Register(gamer);
             gamerManager.NormalRegister(gamer2);
@@ -82,6 +83,7 @@ namespace Game
             campaignManager.Delete(campaign, game2);
 
             salesManager.list(game2);
+
         }
     }       
 }

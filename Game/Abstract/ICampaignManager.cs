@@ -11,5 +11,5 @@ namespace GameProject.Abstract
         void Add(Campaign campaign,GameInfo game);
         void Update(Campaign campaign,int newPercent, GameInfo game);
         void Delete(Campaign campaign,GameInfo game);
-    }
+    }  
 }
